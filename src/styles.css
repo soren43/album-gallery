@@ -1,0 +1,125 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  /* width: 350px;
+  height: 175px; */
+  border-radius: 7%;
+  border-color: blue;
+  border: blue;
+  border-style: solid;
+  align-items: flex-end;
+  margin: 10px;
+}
+/* 
+.card-id {
+  font-size: 2em;
+}
+.card-title {
+  text-align: center;
+  padding: 5px;
+  font-size: 2em;
+}
+.card-number-of-photos {
+  font-size: 1.5em;
+  padding-left: 10px;
+  align-self: flex-end;
+}
+ */
+.album-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+
+  width: 1100px;
+  padding: 20px;
+  height: 1100px;
+}
+
+.photos-popup {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: auto;
+  width: 1000px;
+}
+
+.close-button {
+  display: flex;
+}
+
+.thumbnail-close-button {
+  display: flex;
+  margin-left: 50px;
+}
+
+.wrap {
+  /* height: 200px; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrap2 {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail-img {
+  cursor: pointer;
+}
+
+.rotateRangeBarAndImage {
+  flex-direction: column;
+  display: flex;
+  width: 600px;
+  margin: auto;
+}
+
+.rotateRangeBar {
+  margin-bottom: 200px;
+}
+.imageRotate {
+  width: 600px;
+}
+
+.album-table {
+  margin: auto;
+  width: 1000px;
+}
+
+tr.expandable > td {
+  box-shadow: inset 0 3px 6px -3px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+tr.expandable > td > .inner {
+  margin: 15px;
+  overflow: hidden;
+}
