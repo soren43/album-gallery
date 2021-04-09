@@ -8,3 +8,4 @@ A simple gallery web app that displays a list of albums/photos.
 $ npm i
 $ npm start
 ```
+# album-gallery
